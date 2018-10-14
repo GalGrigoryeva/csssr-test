@@ -1,0 +1,5 @@
+include ../form-field/form-field
+
+mixin filling-date(userData)
+	+b.filling-date&attributes(attributes)
+		+form-field('Дата заполнения', userData.fillingDate)(class='form-field_date')

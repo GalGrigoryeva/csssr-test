@@ -24,6 +24,15 @@
 		"blog": false,
 		"lazy": true,
 		"english": true
-	}
+	},
+	"jsLevel": 2,
+	"about": "Хочу профессионально развиваться в сторону front-end",
+	"futurePlans": {
+		"layout": true,
+		"js": false,
+		"managing": false,
+		"other": false
+	},
+	"fillingDate": "01.01.2016"
 }
 

@@ -2,8 +2,8 @@ include ../form-field/form-field
 
 mixin main-info(userData)
 	+b.main-info&attributes(attributes)
-		+form-element('Полное ФИО', userData.name)
-		+form-element('Год рождения', userData.yob)
-		+form-element('Место жительства', userData.habitation)
-		+form-element('Скайп', userData.skype)
-		+form-element('Почта', userData.email)
+		+form-field('Полное ФИО', userData.name)
+		+form-field('Год рождения', userData.yob)
+		+form-field('Место жительства', userData.habitation)
+		+form-field('Скайп', userData.skype)
+		+form-field('Почта', userData.email)

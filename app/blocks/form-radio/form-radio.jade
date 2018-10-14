@@ -1,0 +1,7 @@
+
+mixin form-radio(title, name, value)
+	+b.LABEL.form-radio&attributes(attributes)
+		+e.INPUT.input(type='radio', name=name, checked=value)
+		+e.I.indicator
+		+e.SPAN.title
+			!=title

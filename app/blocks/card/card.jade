@@ -3,11 +3,21 @@ include ../header/header
 include ../title/title
 include ../main-info/main-info
 include ../skills/skills
+include ../js-skills/js-skills
+include ../about/about
+include ../future-plans/future-plans
+include ../filling-date/filling-date
 
 mixin card()
+	- var userData = getData('userData')
+
 	+b.card
 		+container
 			+header()(isSecret=true)
 			+title
-			+main-info(getData('userData'))
-			+skills(getData('skills'), getData('userData').skills)
+			+main-info(userData)
+			+skills(getData('skills'), userData.skills)
+			+js-skills(getData('jsSkills'), userData.jsLevel)
+			+about()
+			+future-plans(getData('futurePlans'), userData.futurePlans)
+			+filling-date(userData)
