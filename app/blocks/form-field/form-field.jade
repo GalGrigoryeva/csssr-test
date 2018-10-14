@@ -1,0 +1,5 @@
+mixin form-element(title, value)
+	+b.LABEL.form-field&attributes(attributes)
+		+e.SPAN.title
+			=title
+		+e.INPUT.input(type='text', value=value)

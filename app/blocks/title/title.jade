@@ -1,0 +1,5 @@
+mixin title()
+	+b('h1').title&attributes(attributes)
+		picture
+			source(media='(min-width: 768px)', srcset='assets/images/title.png')
+			+e.IMG.img(src='assets/images/title-mobile.png', alt='Заголовок «Дело»')

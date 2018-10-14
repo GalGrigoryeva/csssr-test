@@ -1,0 +1,9 @@
+include ../logo/logo
+include ../stamp-secret/stamp-secret
+
+mixin header()
+	- var isSecret = attributes.isSecret
+	+b.HEADER.header&attributes(attributes)
+		+logo
+		if isSecret
+			+stamp-secret

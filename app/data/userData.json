@@ -1,0 +1,29 @@
+{
+	"name": "Григорьева Галина Павловна",
+	"yob": 1989,
+	"habitation": "г. Вильнюс, Литва",
+	"skype": "galinakorneva",
+	"email": "galgrigoryeva@gmail.com",
+	"skills": {
+		"bem": true,
+		"pug": true,
+		"stylus": true,
+		"svg": true,
+		"semantics": true,
+		"a11y": true,
+		"ES2015/ES2016": true,
+		"gulp/grunt": true,
+		"webpack": false,
+		"webGL": false,
+		"jQuery ": true,
+		"angular": false,
+		"react": true,
+		"node": false,
+		"git": true,
+		"eye": true,
+		"blog": false,
+		"lazy": true,
+		"english": true
+	}
+}
+

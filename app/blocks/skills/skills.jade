@@ -1,0 +1,12 @@
+include ../form-checkbox/form-checkbox
+
+mixin skills(skillsList, userSkills)
+	+b.skills&attributes(attributes)
+		+e.H2.title Расскажите о себе чекбоксами
+		+e.P.description
+			| Отметьте чекбоксами пункты, которые соответствуют вашим скиллам. Кстати, отсутствие опыта
+			| не&nbsp;означает, что у&nbsp;вас меньше шансов стать одним из&nbsp;наших товарищей. Это означает,
+			| что вы&nbsp;будете получать те&nbsp;задачи, с&nbsp;которыми гарантировано будете справляться.
+		+e.container
+			each item in skillsList
+				+form-checkbox(item.title, userSkills[item.name])

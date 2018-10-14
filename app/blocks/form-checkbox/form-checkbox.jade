@@ -1,0 +1,6 @@
+mixin form-checkbox(title, value)
+	+b.LABEL.form-checkbox&attributes(attributes)
+		+e.INPUT.input(type='checkbox', checked=value)
+		+e.I.indicator
+		+e.SPAN.title
+			!=title

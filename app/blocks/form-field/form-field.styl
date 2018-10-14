@@ -1,0 +1,43 @@
+.form-field
+	display flex
+	flex-direction column
+	margin-bottom 12px
+	&:last-of-type
+		margin-bottom 0
+
+.form-field__title
+	font-family pt-sans
+	font-size 16px
+	line-height 22px
+	font-weight 700
+	color font-brown
+
+.form-field__input
+	height 30px
+	font-family courier-new
+	font-size 18px
+	text-ellipsis()
+	color font-brown-dark
+	border none
+	background-color transparent
+	background-image url(../images/line.png)
+	background-repeat no-repeat
+	background-position right bottom
+
+@media (min-width: 768px)
+	.form-field
+		flex-direction row
+		align-items flex-end
+
+	.form-field__title
+		flex-shrink 0
+		margin-right 16px
+		font-size 22.43px
+		line-height normal
+
+	.form-field__input
+		flex-grow 1
+		height 50px
+		padding-x(15px)
+		padding-bottom 4px
+		font-size 30px

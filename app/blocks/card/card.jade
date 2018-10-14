@@ -1,0 +1,13 @@
+include ../container/container
+include ../header/header
+include ../title/title
+include ../main-info/main-info
+include ../skills/skills
+
+mixin card()
+	+b.card
+		+container
+			+header()(isSecret=true)
+			+title
+			+main-info(getData('userData'))
+			+skills(getData('skills'), getData('userData').skills)
