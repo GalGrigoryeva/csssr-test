@@ -7,5 +7,5 @@ mixin range-slider(skills, level)
 			-}
 		+e.UL.list
 			each item in skills
-				+e.LI.list-item(data=item.position, style=`left:${item.position}%`)
+				+e.LI.list-item(data-range=item.position, style=`left:${item.position}%`)
 					=item.title
