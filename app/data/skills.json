@@ -1,21 +1,21 @@
 [
 	{"name": "bem", "title": "БЭМ/OOCSS"},
 	{"name": "pug", "title": "Pug (Jade)"},
-	{"name": "stylus", "title": "Stylus/LESS/SASS "},
-	{"name": "svg", "title": " Работаю с SVG "},
+	{"name": "stylus", "title": "Stylus/LESS/SASS"},
+	{"name": "svg", "title": "Работаю с SVG"},
 	{"name": "semantics", "title": "Верстаю семантично"},
-	{"name": "a11y", "title": " Accessibility (A11Y)"},
+	{"name": "a11y", "title": "Accessibility (A11Y)"},
 	{"name": "ES2015/ES2016", "title": "ES2015/ES2016"},
 	{"name": "gulp/grunt", "title": "Gulp/GRUNT"},
-	{"name": "webpack", "title": " Webpack "},
-	{"name": "webGL", "title": "Дружу с WebGL "},
+	{"name": "webpack", "title": "Webpack"},
+	{"name": "webGL", "title": "Дружу с WebGL"},
 	{"name": "jQuery", "title": "jQuery"},
-	{"name": "angular", "title": "Знаю/изучаю Angular "},
-	{"name": "react", "title": " Знаю/изучаю React"},
+	{"name": "angular", "title": "Знаю/изучаю Angular"},
+	{"name": "react", "title": "Знаю/изучаю React"},
 	{"name": "node", "title": "Знаю/изучаю Node.js"},
-	{"name": "git", "title": "Использую Git "},
-	{"name": "eye", "title": "С глазомером всё ок"},
+	{"name": "git", "title": "Использую Git"},
+	{"name": "eye", "title": "С шдазомером всё ок"},
 	{"name": "blog", "title": "Читаю <a class='form-checkbox__link' href='https://csssr.ru/'>blog.csssr.ru</a>"},
-	{"name": "lazy", "title": " Я ленивый(-ая)"},
-	{"name": "english", "title": "  У меня хороший английский"}
+	{"name": "lazy", "title": "Я ленивый(-ая)"},
+	{"name": "english", "title": "У меня хороший английский"}
 ]

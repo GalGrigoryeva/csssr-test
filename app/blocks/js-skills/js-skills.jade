@@ -1,3 +1,6 @@
+include ../range-slider/range-slider
+
 mixin js-skills()
 	+b.js-skills&attributes(attributes)
 		+e.H2.title Уровень владения JavaScript
+		+range-slider(getData('jsSkills'), getData('userData').jsLevel)(id='jsSkillsSlider')
