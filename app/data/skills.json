@@ -14,7 +14,7 @@
 	{"name": "react", "title": "Знаю/изучаю React"},
 	{"name": "node", "title": "Знаю/изучаю Node.js"},
 	{"name": "git", "title": "Использую Git"},
-	{"name": "eye", "title": "С шдазомером всё ок"},
+	{"name": "eye", "title": "С глазомером всё ок"},
 	{"name": "blog", "title": "Читаю <a class='form-checkbox__link' href='https://csssr.ru/'>blog.csssr.ru</a>"},
 	{"name": "lazy", "title": "Я ленивый(-ая)"},
 	{"name": "english", "title": "У меня хороший английский"}
