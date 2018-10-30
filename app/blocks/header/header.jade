@@ -2,8 +2,8 @@ include ../logo/logo
 include ../stamp-secret/stamp-secret
 
 mixin header()
-	- var isSecret = attributes.isSecret
+	- var issecret = attributes.issecret
 	+b.HEADER.header&attributes(attributes)
 		+logo
-		if isSecret
+		if issecret
 			+stamp-secret
